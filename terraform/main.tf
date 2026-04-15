@@ -92,11 +92,11 @@ resource "azurerm_linux_virtual_machine" "vm" {
 
   admin_ssh_key {
     username   = var.admin_username
-    public_key = file(var.ssh_public_key_path)
+    public_key = var.ssh_public_key
   }
-  
-  custom_data = filebase64("cloud-init.sh")
-  
+
+  custom_data = filebase64("${path.module}/cloud-init.sh")
+
   os_disk {
     caching              = "ReadWrite"
     storage_account_type = "Standard_LRS"

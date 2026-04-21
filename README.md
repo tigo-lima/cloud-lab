@@ -17,7 +17,7 @@ This project is a hands-on cloud engineering lab focused on Azure.
 
 ## Progress
 
-Week 1 — Environment Setup
+Week 1 Environment Setup
 Local development environment prepared
 Azure CLI configured
 Terraform installed
@@ -25,7 +25,7 @@ Docker installed
 SSH key pair generated for secure access
 Visual Studio Code workspace configured
 
-Week 2 — Manual Azure Infrastructure
+Week 2 Manual Azure Infrastructure
 Azure infrastructure provisioned manually
 Virtual Network (VNet), Subnet, Network Security Group (NSG), Public IP and Network Interface created
 Ubuntu Linux Virtual Machine deployed
@@ -33,7 +33,7 @@ SSH connectivity validated
 Nginx installed and configured
 HTTP service exposed publicly and accessible via browser
 
-Week 3 — Infrastructure as Code (Terraform)
+Week 3 Infrastructure as Code (Terraform)
 Infrastructure fully recreated using Terraform (IaC approach)
 Dedicated Azure Resource Group deployed via code
 Automated provisioning of:
@@ -45,7 +45,7 @@ terraform apply executed successfully
 Outputs configured (public IP, resource group, VM name)
 Infrastructure validated via SSH and HTTP access
 
-Week 4 — Automation & CI/CD (IMPORTANTE adicionar)
+Week 4 Automation & CI/CD (IMPORTANTE adicionar)
 Terraform remote backend configured using Azure Storage
 State management centralized and secured
 GitHub repository created and connected

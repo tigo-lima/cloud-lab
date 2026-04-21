@@ -32,3 +32,5 @@
 The VM creation using `Ubuntu2204` alias failed in Azure CLI with a parsing error.
 The issue was solved by using the explicit image URN:
 `Canonical:0001-com-ubuntu-server-jammy:22_04-lts-gen2:latest`
+
+
